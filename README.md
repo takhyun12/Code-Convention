@@ -52,11 +52,16 @@ Next / Previous, Increment / Decrement, Old / New, Up / Down, Min / Max, Show / 
   3) 파라미터 또한 변수 명명 규칙을 잘 준수한다.
   4) 파라미터에 띄워쓰기를 잘 맞춰서 한다.
   
-  
 > 잘못된 예) GetMyName(param1,param2,param3);
 
 > 올바른 예) GetMyName(param1, param2, param3);
 
 ## 나. 코드 작성 규칙 (Coding Rule)
-### 1. 파일 명명 규칙
+### 1. 조건문 규칙
+  1) 조건문에서 else if 조건이 5개 이상이면, switch/case문을 사용한다.
+  2) 코드와 ( ) 사이 그리고 ( ) 내부에 띄워쓰기를 잛 준수한다.
+  
+  > 올바른 예) if( userName == "james" ) 
+  * 괄호안은 띄워쓰기를 준수하였고, 코드if와 괄호사이는 띄워쓰기가 없도록 하였다.
+
   
