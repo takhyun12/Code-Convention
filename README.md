@@ -64,4 +64,7 @@ Next / Previous, Increment / Decrement, Old / New, Up / Down, Min / Max, Show / 
   > 올바른 예) if( userName == "james" ) 
   * 괄호안은 띄워쓰기를 준수하였고, 코드if와 괄호사이는 띄워쓰기가 없도록 하였다.
 
-  
+  ### 2. 반복문 규칙
+  1) 무한루프는 반복문 위에 주석으로 반드시 표기한다.
+  2) i, n, j, k 등의 임시 변수명을 사용하지 않으며, index, temp 등 명확한 네임을 지정한다.
+  3) 반복문 위에 반복 횟수와 목적을 간략하게 주석으로 기록한다.
