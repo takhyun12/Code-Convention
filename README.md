@@ -44,4 +44,26 @@ Next / Previous, Increment / Decrement, Old / New, Up / Down, Min / Max, Show / 
 
 e.g. GotoURL(), ViewMap(), PlayMovie(), ParseURL()
 
+### 4. 상수 명명 규칙
+ 1) 상수는 GNU Naming Convention을 사용하며, "_" 언더바를 통해 구분한다.
+ (모두 대문자로 표시)
+ 
+ e.g. DEFAULT_COUNTRY_CODE, TEST_DATA, FILE_PATH
+ 
+ ### 5. 파라미터 명명 규칙
+  1) 파라미터는 최대 4~5개를 넘기지 않으며, 반드시 필요한 것만 넘기도록 한다.
+  2) 파라미터에 절대로 bool type을 넣지 않는다. 
+  (bool type이 들어가게 되면, 함수에 조건문이 반드시 들어가게 되어 있으므로 알아보기 어려워짐)
+  3) 파라미터 또한 변수 명명 규칙을 잘 준수한다.
+  4) 파라미터에 띄워쓰기를 잘 맞춰서 한다.
+  
+  
+잘못된 예)
+GetMyName(param1,param2,param3);
 
+올바른 예)
+GetMyName(param1, param2, param3);
+
+
+  
+  
