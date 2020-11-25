@@ -47,6 +47,7 @@ e.g. GotoURL(), ViewMap(), PlayMovie(), ParseURL()
 ### 4. 상수 명명 규칙
  1) 상수는 GNU Naming Convention을 사용하며, "_" 언더바를 통해 구분한다.
  (모두 대문자로 표시)
+ 2) 상수는 항상 코드 상단에 모아 놓는다.
  
  e.g. DEFAULT_COUNTRY_CODE, TEST_DATA, FILE_PATH
  
