@@ -22,7 +22,7 @@
  5) 네이밍에서 "_" 언더바의 사용을 하지 않는다.
  6) 특히 bool type은 상태를 정확히 알 수 있도록 네이밍한다.
 
-e.g.
+> e.g.
 bool type: bool isTutorial= false; bool wasDisabledDueToHoverBoard = false;
 char type: char userName[20] = {0, };
 int type: int score = 0;
@@ -42,14 +42,14 @@ Create / Destroy, Open / Close, Init / Final, Play / Stop, Get / Set, Add / Remo
 Insert / Delete, Start / Stop, Suspend / Resume, Begin / End, First / Last,
 Next / Previous, Increment / Decrement, Old / New, Up / Down, Min / Max, Show / Hide
 
-e.g. GotoURL(), ViewMap(), PlayMovie(), ParseURL()
+> e.g. GotoURL(), ViewMap(), PlayMovie(), ParseURL()
 
 ### 4. 상수 명명 규칙
  1) 상수는 GNU Naming Convention을 사용하며, "_" 언더바를 통해 구분한다.
  (모두 대문자로 표시)
  2) 상수는 항상 코드 상단에 모아 놓는다.
  
- e.g. DEFAULT_COUNTRY_CODE, TEST_DATA, FILE_PATH
+> e.g. DEFAULT_COUNTRY_CODE, TEST_DATA, FILE_PATH
  
  ### 5. 파라미터 명명 규칙
   1) 파라미터는 최대 4~5개를 넘기지 않으며, 반드시 필요한 것만 넘기도록 한다.
@@ -59,11 +59,9 @@ e.g. GotoURL(), ViewMap(), PlayMovie(), ParseURL()
   4) 파라미터에 띄워쓰기를 잘 맞춰서 한다.
   
   
-잘못된 예)
-GetMyName(param1,param2,param3);
+> 잘못된 예) GetMyName(param1,param2,param3);
 
-올바른 예)
-GetMyName(param1, param2, param3);
+> 올바른 예) GetMyName(param1, param2, param3);
 
 ## 나. 코드 작성 규칙 (Coding Rule)
 ### 1. 파일 명명 규칙
