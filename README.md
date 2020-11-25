@@ -11,7 +11,7 @@
  4) 확장자는 무조건 소문자로 저장한다.
  5) 폴더명 또한 동일한 규칙을 적용한다.
 
- e.g. DisplayApiController.java, DisplayService.java
+> e.g. DisplayApiController.java, DisplayService.java
 
 ### 2. 변수 명명 규칙
  1) 변수는 두 단어 이상이 조합되면 lowerCamelCase 표기법을 기준으로 표시한다.
