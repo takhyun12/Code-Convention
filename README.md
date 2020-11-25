@@ -2,7 +2,7 @@
 
 최종수정일 : 2020/11/25
 
-1. 파일 명명 규칙(File Name Convention Rule)
+##1. 파일 명명 규칙(File Name Convention Rule)
  1) 의미 있는 명사로 사용한다.
  2) 두 단어 이상이 조합되면 UpperCamelCase (=PascalCase) 표기법을 기준으로 표기한다.
    (첫글자는 대문자이고 나머지는 소문자이나 새로운 단어는 첫글자가 대문자)
@@ -12,7 +12,7 @@
 
 e.g. DisplayApiController.java, DisplayService.java
 
-2. 변수 명명 규칙
+##2. 변수 명명 규칙
  1) 변수는 두 단어 이상이 조합되면 lowerCamelCase 표기법을 기준으로 표시한다.
     (전부 소문자이며, 두번째 단어의 첫글자만 대문자)
  2) 함축된 단어나 약어를 사용하지 않으며, 영어 단어사전에 없는 단어는 되도록 사용하지 않는다.
