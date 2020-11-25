@@ -23,7 +23,6 @@ e.g. DisplayApiController.java, DisplayService.java
  6) 특히 bool type은 상태를 정확히 알 수 있도록 네이밍한다.
 
 e.g. 
-
 bool type: bool isTutorial= false; bool wasDisabledDueToHoverBoard = false;
 char type: char userName[20] = {0, };
 int type: int score = 0;
