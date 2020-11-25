@@ -20,8 +20,17 @@ e.g. DisplayApiController.java, DisplayService.java
  3) 함축된 단어나 약어를 사용하지 않으며, 영어 단어사전에 없는 단어는 되도록 사용하지 않는다.
  4) i, n, j, k 등의 변수명을 사용하지 않으며, index, temp 등 명확한 네임을 지정한다.
  5) 네이밍에서 "_" 언더바의 사용을 하지 않는다.
+ 6) 특히 bool type은 상태를 정확히 알 수 있도록 네이밍한다.
 
-e.g. goodsList, modelStatus
+e.g. 
+
+bool type: bool isTutorial= false; bool wasDisabledDueToHoverBoard = false;
+char type: char userName[20] = {0, };
+int type: int score = 0;
+float type: float leftMoveSpeed = 5.0f;
+string type: string kakaoUserId = "";
+double type: double chipValue = 0;
+
 
 ### 3. 함수 명명 규칙
  1) 함수의 이름은 동사+명사로 작성한다.
