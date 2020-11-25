@@ -65,6 +65,6 @@ GetMyName(param1,param2,param3);
 올바른 예)
 GetMyName(param1, param2, param3);
 
-
-  
+## 나. 코드 작성 규칙 (Coding Rule)
+### 1. 파일 명명 규칙
   
