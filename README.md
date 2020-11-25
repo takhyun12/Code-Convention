@@ -11,7 +11,7 @@
  4) 확장자는 무조건 소문자로 저장한다.
  5) 폴더명 또한 동일한 규칙을 적용한다.
 
-e.g. DisplayApiController.java, DisplayService.java
+e.g: DisplayApiController.java, DisplayService.java
 
 ### 2. 변수 명명 규칙
  1) 변수는 두 단어 이상이 조합되면 lowerCamelCase 표기법을 기준으로 표시한다.
@@ -22,12 +22,17 @@ e.g. DisplayApiController.java, DisplayService.java
  5) 네이밍에서 "_" 언더바의 사용을 하지 않는다.
  6) 특히 bool type은 상태를 정확히 알 수 있도록 네이밍한다.
 
-e.g. 
+e.g: 
 bool type: bool isTutorial= false; bool wasDisabledDueToHoverBoard = false;
+
 char type: char userName[20] = {0, };
+
 int type: int score = 0;
+
 float type: float leftMoveSpeed = 5.0f;
+
 string type: string kakaoUserId = "";
+
 double type: double chipValue = 0;
 
 
@@ -37,7 +42,7 @@ double type: double chipValue = 0;
    (각 단어별 첫글자가 대문자)
  3) 함축된 단어나 약어를 사용하지 않으며, 영어 단어사전에 없는 단어는 되도록 사용하지 않는다.
  
-추천하는 동사명.
+추천하는 동사명:
 Create / Destroy, Open / Close, Init / Final, Play / Stop, Get / Set, Add / Remove,
 Insert / Delete, Start / Stop, Suspend / Resume, Begin / End, First / Last,
 Next / Previous, Increment / Decrement, Old / New, Up / Down, Min / Max, Show / Hide
