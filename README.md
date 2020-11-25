@@ -23,13 +23,7 @@
  6) 특히 bool type은 상태를 정확히 알 수 있도록 네이밍한다.
 
 > e.g.
-bool type: bool isTutorial= false; bool wasDisabledDueToHoverBoard = false;
-char type: char userName[20] = {0, };
-int type: int score = 0;
-float type: float leftMoveSpeed = 5.0f;
-string type: string kakaoUserId = "";
-double type: double chipValue = 0;
-
+bool isTutorial= false, char userName[20] = {0, }, int type: int score = 0, string type: string kakaoUserId = ""
 
 ### 3. 함수 명명 규칙
  1) 함수의 이름은 동사+명사로 작성한다.
