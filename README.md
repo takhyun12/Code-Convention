@@ -30,6 +30,7 @@ e.g. goodsList, modelStatus
  3) 함축된 단어나 약어를 사용하지 않으며, 영어 단어사전에 없는 단어는 되도록 사용하지 않는다.
  
  * 추천하는 동사명
+ 
 Create / Destroy, Open / Close, Init / Final, Play / Stop, Get / Set, Add / Remove,
 Insert / Delete, Start / Stop, Suspend / Resume, Begin / End, First / Last,
 Next / Previous, Increment / Decrement, Old / New, Up / Down, Min / Max, Show / Hide
